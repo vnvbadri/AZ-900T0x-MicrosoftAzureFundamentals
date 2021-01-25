@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '07 - Implement Azure Functions'
-    module: 'Module 02 - Core Azure Services'
+    title: '08 - Implement Azure Functions (5 min)'
+    module: 'Module 03: Describe core solutions and management tools'
 ---
-# 07 - Implement Azure Functions
+# 08 - Implement Azure Functions
 
 In this walkthrough, we will create a Function App to display a Hello message when there is an HTTP request. 
 
-# Task 1: Create a Function app
+# Task 1: Create a Function app (5 min)
 
 In this task, we will create a Function app.
 
@@ -24,8 +24,11 @@ In this task, we will create a Function app.
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
+    | Version | **3.1** |
     | Region | **East US** |
-    | | |	
+    | | |
+
+    **Note** - Remember to change the **xxxx** so that it makes a unique **Function App name**
 
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 

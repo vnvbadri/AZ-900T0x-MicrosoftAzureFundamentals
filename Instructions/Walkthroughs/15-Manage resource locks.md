@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '16 - Manage resource locks'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '15 - Manage resource locks (5 min)'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 16 - Manage resource locks
+# 15 - Manage resource locks
 
 In this walkthrough, we will create a resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
 
-# Task 1: Create a resource group
+# Task 1: Create a resource group (5 min)
 
 In this task, we will create a resource group for this exercise. 
 
@@ -72,7 +72,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 4. Once validated, click **Create**. Wait for the notification that the account was successfully created. 
 
-5.  Wait for the notification that the stroage account was successfully created. 
+5.  Wait for the notification that the storage account was successfully created. 
 
 6. Access your new storage account and from the **Overview** pane, click **Delete**. You receive an error message stating the resource or its parent has a delete lock. 
 

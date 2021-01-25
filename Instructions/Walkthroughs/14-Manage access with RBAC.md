@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '15 - Manage access with RBAC'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '14 - Manage access with RBAC (5 min)'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 15 - Manage access with RBAC
+# 14 - Manage access with RBAC
 
 In this walkthrough, we will assign roles and view activity logs. 
 
-# Task 1: View and assign roles
+# Task 1: View and assign roles (5 min)
 
 In this task, we will assign the Virtual machine contributor role. 
 
@@ -37,7 +37,7 @@ In this task, we will assign the Virtual machine contributor role.
     | Setting | Value |
     | -- | -- |
     | Role | **Virtual machine contributor** |
-    | Assign access to | **Azure AD user, group, or service principal** |
+    | Assign access to | **user, group, or service principal** |
     | Select | your user account |
     | | |
 

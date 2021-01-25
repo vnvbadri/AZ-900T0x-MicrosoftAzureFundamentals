@@ -1,14 +1,14 @@
 ---
 wts:
-    title: '05 - Create a SQL database'
-    module: 'Module 02 - Core Azure Services'
+    title: '06 - Create a SQL database (5 min)'
+    module: 'Module 02 - Core Azure Services (Workloads)'
 ---
 
-# 05 - Create a SQL database
+# 06 - Create a SQL database
 
 In this walkthrough, we will create a SQL database in Azure and then query the data in that database.
 
-# Task 1: Create the database
+# Task 1: Create the database (5 min)
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 
@@ -62,7 +62,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 6. Click **Review + create** and then click **Create** to deploy and provision the resource group, server, and database. It can take approx. 2 to 5 minutes to deploy.
 
-7. Monitor your deployment. 
+7. Go to the resource tab to locate the SQL database you created. You may need to refresh.
 
 # Task 2: Test the database.
 

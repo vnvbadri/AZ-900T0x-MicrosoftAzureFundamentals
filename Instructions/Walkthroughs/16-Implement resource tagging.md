@@ -1,13 +1,13 @@
 ---
 wts:
-    title: '17 - Implement resource tagging'
-    module: 'Module 03 - Security, Privacy, Compliance and Trust'
+    title: '16 - Implement resource tagging (5 min)'
+    module: 'Module 05: Describe identity, governance, privacy, and compliance features'
 ---
-# 17 - Implement resource tagging
+# 16 - Implement resource tagging
 
 In this walkthrough, we will create a policy assignment that requires tagging, created a storage account and test the tagging, view resources with a specified tag, and remove the tagging policy.
 
-# Task 1: Create a Policy assignment
+# Task 1: Create a Policy assignment (5 min)
 
 In this task, we will configure the **Require a tag on resources** policy and assign it to our subscription. 
 
@@ -25,7 +25,7 @@ In this task, we will configure the **Require a tag on resources** policy and as
 
 6. On the **Assign policy** blade, in the **Parameters** tab, type in **Company** for the tag name. Click **Review + create**, and then **Create**.
 
-    **Note:** This is a simple example to demonstrate tagging. 
+    **Note:** This is a simple example to demonstrate tagging. Please note that the assignment takes around 30 minutes to take effect. 
 
     ![Screenshot of Assign policy pane with the Tag name filled out.](../images/1702.png)
 
@@ -58,6 +58,8 @@ In this task, we will create storage accounts to test the required tagging.
     **Note:** If you view the Raw Error tab you will see the specific tag name that is required. 
 
     ![Screenshot of disallowed due to policy error.](../images/1704.png)
+
+    **Note - you need to wait 30 minutes for tagging to be complete.** 
 
 5. Close the **Error** pane and click **Previous** (bottom of the screen). Provide the tagging information. 
 
