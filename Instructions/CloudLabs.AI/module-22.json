@@ -1,0 +1,10 @@
+[ {
+  "Name": "Open a Support Request",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/22-Open%20a%20Support%20Request.md",
+      "Order": 1
+    }
+  ]
+} ]

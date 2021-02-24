@@ -1,0 +1,10 @@
+[ {
+  "Name": "Create an Azure Policy",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/17-Create%20an%20Azure%20Policy.md",
+      "Order": 1
+    }
+  ]
+} ]

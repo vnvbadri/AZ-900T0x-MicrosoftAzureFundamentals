@@ -1,0 +1,10 @@
+[ {
+  "Name": "Implement Azure Key Vault",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/12-Implement%20Azure%20Key%20Vault.md",
+      "Order": 1
+    }
+  ]
+} ]

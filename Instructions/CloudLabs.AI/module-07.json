@@ -1,0 +1,10 @@
+[ {
+  "Name": "Implement an Azure IoT Hub",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/07-Implement%20the%20Azure%20IoT%20Hub.md",
+      "Order": 1
+    }
+  ]
+} ]
