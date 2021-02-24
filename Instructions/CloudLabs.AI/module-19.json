@@ -1,0 +1,10 @@
+[ {
+  "Name": "Use the Pricing Calculator",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/AZ-900T0x-MicrosoftAzureFundamentals/prod/Instructions/CloudLabs.AI/19-Use%20the%20Azure%20Pricing%20Calculator.md",
+      "Order": 1
+    }
+  ]
+} ]
