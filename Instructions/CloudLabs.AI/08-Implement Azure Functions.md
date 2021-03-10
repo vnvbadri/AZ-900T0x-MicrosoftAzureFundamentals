@@ -10,12 +10,12 @@ In this task, we will create a Function app.
 
 1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the deployment ID and leave all other settings with their default values): 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the DeploymentID and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-[deployId]** |
+    | Resource group | the name of **existing** resource group **myRGFunction-[DeploymentID]** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
@@ -23,7 +23,6 @@ In this task, we will create a Function app.
     | Region | **East US** |
     | | |
 
-    
 
 1. Click **Review + Create** and, after successful validation, click **Create** to begin provisioning and deploying your new Azure Function App.
 
