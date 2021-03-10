@@ -29,7 +29,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Setting| Value|
     |----|----|
     | Subscription | **Choose your subscription**|
-    | Resource group | **myRGTemplate-[deployId]** (use existing) |
+    | Resource group | **myRGTemplate-[DeploymentID]** (use existing) |
     | Location | **(US) East US** |
     | Admin username | **azureuser** |
     | Admin password | **Pa$$w0rd1234** |
