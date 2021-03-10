@@ -15,7 +15,7 @@ In this task, we will create a Function app.
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of **existing** resource group **myRGFunction-[deployId]**** |
+    | Resource group | the name of **existing** resource group **myRGFunction-[deployId]** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
