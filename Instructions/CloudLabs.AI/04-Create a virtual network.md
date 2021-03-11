@@ -8,7 +8,7 @@ In this task, we will create a virtual network.
 
 1. Sign in to the Azure portal at <a href="https://portal.azure.com" target="_blank"><span style="color: #0066cc;" color="#0066cc">https://portal.azure.com</span></a>
 
-2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **Virtual networks**, and then click **+ New**. 
 
 3. On the **Create virtual network** blade, fill in the following (leave the defaults for everything else):
 
@@ -17,7 +17,7 @@ In this task, we will create a virtual network.
     | Name | **vnet1** |
     | Address space |**10.1.0.0/16** |
     | Subscription | **Select your subscription** |
-    | Resource group | **myRGVNet-[deployId]** (use existing) |
+    | Resource group | **myRGVNet-[DeploymentId]** (use existing) |
     | Location | **(US) East US** |
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
@@ -42,7 +42,7 @@ In this task, we will create two virtual machines in the virtual network.
    | Setting | Value | 
    | --- | --- |
    | Subscription | **Choose your subscription**  |
-   | Resource group |  **myRGVNet-[deployId]** |
+   | Resource group |  **myRGVNet-[DeploymentId]** |
    | Virtual machine name | **vm1**|
    | Region | **(US) East US** |
    | Image | **Windows Server 2019 Datacenter** |
@@ -67,7 +67,7 @@ In this task, we will create two virtual machines in the virtual network.
 
     | Setting | Value |
     | --- | --- |
-    | Resource group | **myRGVNet-[deployId]** |
+    | Resource group | **myRGVNet-[DeploymentId]** |
     | Virtual machine name |  **vm2** |
     | Virtual network | **vnet1** |
     | Public IP | (new) **vm2-ip** |
