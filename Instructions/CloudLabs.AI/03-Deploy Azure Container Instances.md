@@ -7,7 +7,7 @@ In this walkthrough we create, configure, and deploy a Docker container by using
 
 In this task, we will create a new container instance for the web application. 
 
-1. Sign in to the [Azure portal](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **Container instances** and then click **+ New**. 
 
@@ -25,6 +25,8 @@ In this task, we will create a new container instance for the web application.
 	| OS type| **Linux** |
 	| Size| ***Leave at the default***|
 	|||
+
+    **Note** - Deployment ID can be obtained from the Lab Environment output page.
 
 4. Configure the Networking tab (replace **xxxx** with the Deployment ID). Leave all other settings at their default values .
 
