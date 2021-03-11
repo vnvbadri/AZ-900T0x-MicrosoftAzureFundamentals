@@ -48,7 +48,6 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** |
-    | Collation | ***use default*** |
     | Enable Azure Defender for SQL | **Not now** |
     | | |
 
