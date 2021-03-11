@@ -39,7 +39,7 @@ In this task, we will browse the Azure QuickStart gallery and deploy a template 
     | Windows OS version | **2019-Datacenter** |
     | | |
     
-    ** Note: There is no cost associated with this template.
+   **Note**: Deployment ID can be obtained from the Lab Environment output page. There is no cost associated with this template.
 
 9. Click **Review + Create**.
 
