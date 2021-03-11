@@ -10,14 +10,14 @@ In this task, you will create an Azure App Service Web App.
 
 1. Sign-in to the [Azure portal](http://portal.azure.com/). 
 
-2. From the **All services** blade, search for and select **App Services**, and click **+ Add**
+2. From the **All services** blade, search for and select **App Services**, and click **+ New**
 
-3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **xxxx** in the name of the web app with the deployment ID). Leave the defaults for everything else, including the App Service Plan. 
+3. On the **Basics** tab of the **Web App** blade, specify the following settings (replace **xxxx** in the name of the web app with the Deployment ID). Leave the defaults for everything else, including the App Service Plan. 
 
     | Setting | Value |
     | -- | -- |
     | Subscription | **Choose your subscription** |
-    | Resource Group | **myRGWebApp1-[deployId]** (use existing) |
+    | Resource Group | **myRGWebApp1-[DeploymentId]** (use existing) |
     | Name | **myDockerWebAppxxxx** |
     | Publish | **Docker Container** |
     | Operating System | **Linux** |
