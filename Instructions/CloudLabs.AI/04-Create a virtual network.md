@@ -22,7 +22,7 @@ In this task, we will create a virtual network.
     | Subnet - Name | **default** |
     | Subnet Address range | **10.1.0.0/24** |
 
-> Note: Deployment ID can be obtained from the Lab Environment output page.
+    **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
@@ -100,9 +100,9 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 8. Try to ping vm2 (make sure vm2 is running). You will receive an error, saying request timed out.  The `ping` fails, because `ping` uses the **Internet Control Message Protocol (ICMP)**. By default, ICMP isn't allowed through the Windows firewall.
 
 
-   ```PowerShell
-   ping vm2
-   ```
+    ```
+    ping vm2
+    ```
    
    ![Screenshot of PowerShell command prompt with the command ping vm2 after its completion and the output indicating the command wasn't successful.](../images/0302.png)
 
@@ -112,18 +112,21 @@ In this task, we will allow ICMP connections and test whether the virtual machin
 
 10. Open a **PowerShell** prompt and allow ICMP. This command allows ICMP inbound connections through the Windows firewall.
 
-   ```PowerShell
-   New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
-   ```
+
+    ```
+    New-NetFirewallRule –DisplayName “Allow ICMPv4-In” –Protocol ICMPv4
+    ```
+    
    ![Screenshot of PowerShell command prompt with the command New-NetFirewallRule DisplayName Allow ICMPv4-In –Protocol ICMPv4 after its completion and the output indicating the command was successful.](../images/0303.png)
 
    **Note**: You will now switch to the RDP session to vm1 and try the ping again
 
 11. Return to the RDP session to vm1 and try the ping again. You should now be successful. 
 
-   ```PowerShell
-   ping vm2
-   ```
+
+    ```
+    ping vm2
+    ```
 
 Congratulations! You have configured and deployed two virtual machines in a virtual network. You have also configured the Windows firewall so one of the virtual machines allows incoming ping requests. 
 
