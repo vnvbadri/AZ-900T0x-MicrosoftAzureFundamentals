@@ -9,18 +9,18 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
 
 1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click **+ New**. 
 
 3. On the **Basics** tab, fill in this information.  
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGDb-[deployId]** (use existing) |
+    | Resource group | **myRGDb-[DeploymentId]** (use existing) |
     | Database name| **db1** | 
     | | |
 
-3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with the deployment ID). Click **OK** when finished.          
+3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with the Deployment ID). Click **OK** when finished.          
 
     | Setting | Value | 
     | --- | --- |
@@ -28,7 +28,6 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Location | **(US) East US** |
-    | Allow Azure services to access server| ***Select the checkbox*** |
     | | |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
@@ -50,7 +49,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | --- | --- |
     | Use existing data | **Sample** |
     | Collation | ***use default*** |
-    | Enable advanced data security | **Not now** |
+    | Enable Azure Defender for SQL | **Not now** |
     | | |
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)
