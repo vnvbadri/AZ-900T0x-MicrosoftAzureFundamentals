@@ -7,7 +7,7 @@ In this walkthrough, we will create a SQL database in Azure and then query the d
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 
-1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
+1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
 
 2. From the **All services** blade, search for and select **SQL databases**, and then click **+ New**. 
 
@@ -19,6 +19,8 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Resource group | **myRGDb-[DeploymentId]** (use existing) |
     | Database name| **db1** | 
     | | |
+
+> Note: Deployment ID can be obtained from the Lab Environment output page.
 
 3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with the Deployment ID). Click **OK** when finished.          
 
