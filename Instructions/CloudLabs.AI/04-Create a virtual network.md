@@ -27,9 +27,9 @@ In this task, we will create a virtual network.
    ![Screenshot of the "Basic" step of Create virtual network blade with the default fields.](../images/0301a.png)
    ![Screenshot of the "IP Addresses" step of Create virtual network blade with the default fields.](../images/0301b.png)
 
-5. Click the **Review + create** button. Ensure the validation passes.
+4. Click the **Review + create** button. Ensure the validation passes.
 
-6. Click the **Create** button to deploy the virtual network. 
+5. Click the **Create** button to deploy the virtual network. 
 
     **Note**: In your organization, how will you know which virtual networks and IP addressing you will need?
 
