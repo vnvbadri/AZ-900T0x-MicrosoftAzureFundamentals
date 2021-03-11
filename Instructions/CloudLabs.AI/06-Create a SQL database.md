@@ -89,7 +89,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 9. Once you log in successfully the query pane appears, enter the following query into the editor pane.
 
-    ```SQL
+    ```
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
     FROM SalesLT.ProductCategory pc
     JOIN SalesLT.Product p
