@@ -93,9 +93,7 @@ In this task, install the Web Server role on the server and ensure the default I
 
 2. Install the **Web-Server** feature in the virtual machine by running the following command in the PowerShell command prompt. You can copy and paste this command.
 
-    ```bash
      Install-WindowsFeature -name Web-Server -IncludeManagementTools
-    ```
   
 3. When completed there will be a prompt stating **Success** with a value **True**. You do not need to restart the virtual machine to complete the installation. Close the RDP connection to the VM.
 
