@@ -36,7 +36,7 @@ In this task, we will assign the Virtual machine contributor role.
     | Select | your user account |
     | | |
 
-    **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to.
+    **Note:** The Virtual machine contributor role lets you manage virtual machines, but not access their operating system or manage the virtual network and storage account they are connected to. User name can be obtained from the Lab Environment output page
 
     ![Screenshot of the Add role assignment page filled out with the necessary information.](../images/1502.png)
 
