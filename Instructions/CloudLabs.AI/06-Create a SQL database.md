@@ -7,20 +7,18 @@ In this walkthrough, we will create a SQL database in Azure and then query the d
 
 In this task, we will create a SQL database based on the AdventureWorksLT sample database. 
 
-1. Click on the Azure Portal icon on the VM desktop and login with the Azure credentials from the Lab Environment output page.
+1. Sign in to the Azure portal at [**https://portal.azure.com**](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **SQL databases**, and then click **+ New**. 
+2. From the **All services** blade, search for and select **SQL databases**, and then click **+ Add**. 
 
 3. On the **Basics** tab, fill in this information.  
 
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Choose your subscription** |
-    | Resource group | **myRGDb-[DeploymentId]** (use existing) |
+    | Resource group | **myRGDb-[deployId]** (use existing) |
     | Database name| **db1** | 
     | | |
-
-    **Note**: Deployment ID can be obtained from the Lab Environment output page.
 
 3. Next to the **Server** drop down list, click **Create new** and enter this information (replace **xxxx** in the name of the server with the deployment ID). Click **OK** when finished.          
 
@@ -30,6 +28,7 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Server admin login | **sqluser** |
     | Password | **Pa$$w0rd1234** |
     | Location | **(US) East US** |
+    | Allow Azure services to access server| ***Select the checkbox*** |
     | | |
 
    ![Screenshot of the Server pane and the New Server pane with fields filled in as per the table and the Review + create and OK buttons highlighted.](../images/0501.png)
@@ -50,7 +49,8 @@ In this task, we will create a SQL database based on the AdventureWorksLT sample
     | Setting | Value | 
     | --- | --- |
     | Use existing data | **Sample** |
-    | Enable Azure Defender for SQL | **Not now** |
+    | Collation | ***use default*** |
+    | Enable advanced data security | **Not now** |
     | | |
 
     ![Screenshot of the Additional settings tab of the Create SQL Database blade with settings selected as per the table and the Review + create button highlighted.](../images/0501c.png)
@@ -89,7 +89,7 @@ In this task, we will configure the SQL server and run a SQL query.
 
 9. Once you log in successfully the query pane appears, enter the following query into the editor pane.
 
-    ```
+    ```SQL
     SELECT TOP 20 pc.Name as CategoryName, p.name as ProductName
     FROM SalesLT.ProductCategory pc
     JOIN SalesLT.Product p
