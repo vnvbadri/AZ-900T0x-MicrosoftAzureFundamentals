@@ -4,7 +4,7 @@ In this walkthrough, we will access the Trust Center, Service Trust Portal (STP)
 
 # Task 1: Access the Trust Center
 
-1. Click on the Microsoft Edge icon on the VM desktop to open a browser, in new tab access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
+1. In a browser, access the [Microsoft Trust Center compliance offerings](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-home) page.
 
 2. Notice the offerings are grouped into **Global**, **US Government**, **Industry**, and **Regional**.
 
@@ -20,7 +20,7 @@ In this walkthrough, we will access the Trust Center, Service Trust Portal (STP)
 
 # Task 2: Access the Service Trust Portal (STP)
 
-1. In a new tab of same browser, access the [Service Trust Portal (STP)](https://servicetrust.microsoft.com)
+1. In a browser, access the [Service Trust Portal (STP)](https://servicetrust.microsoft.com)
 
 2. Notice the **Audit** section. In this section are independent audit reports for different Microsoft's Cloud services.
 
