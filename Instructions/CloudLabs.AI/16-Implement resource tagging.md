@@ -39,7 +39,7 @@ In this task, we will create storage accounts to test the required tagging.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGTags-[DeploymentID]** (select existing) |
+    | Resource group | **myRGTags** (select existing) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
     | | |
